@@ -1,0 +1,7 @@
+﻿
+
+0、打印相关接口还未完善，等完善后再说
+
+1、https://gitee.com/ampereufo/MBforNETDemo/
+
+2、QQ:17136608
