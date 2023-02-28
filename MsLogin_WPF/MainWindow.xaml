@@ -9,7 +9,14 @@
         Loaded="Window_Loaded"
         Title="MainWindow" Height="450" Width="800">
     <Grid>
-        <WindowsFormsHost>
+        <Grid.RowDefinitions>
+            <RowDefinition Height="30"></RowDefinition>
+            <RowDefinition></RowDefinition>
+        </Grid.RowDefinitions>
+        <StackPanel Grid.Row="0">
+            <Button Content="PRISM DEMO" Click="Button_Click"></Button>
+        </StackPanel>
+        <WindowsFormsHost Grid.Row="1">
             <froms:Panel x:Name="MBWebView"/>
         </WindowsFormsHost>
     </Grid>
